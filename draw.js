@@ -55,7 +55,7 @@ var drawing = false;
 var tool = "pen";
 
 var color = "black";
-var width = 20;
+var width = 4;
 
 $(document).on("mousedown",function(e) {
   e.preventDefault();
@@ -66,6 +66,7 @@ $(document).on("mousedown",function(e) {
     triangle();
   }
 });
+
 
 $(document).on("mousemove",function(e) {
   e.preventDefault();
