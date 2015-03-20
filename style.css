@@ -1,0 +1,14 @@
+body, html { padding:0px; margin:0px; }
+
+.buttons { position: absolute; z-index: 1; }
+
+.buttons button {
+  font-size: 24px;
+  padding:5px;
+  border:1px solid #999;
+  background-color:white;
+}
+
+.buttons button.selected {
+  background-color:gray;
+}

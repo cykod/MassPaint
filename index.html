@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> MassDraw</title>
+  <script src='http://cykod.github.io/Logoish/logoish.js'></script>
+  <script src='https://code.jquery.com/jquery-1.11.2.js'></script>
+   <link href='style.css' rel='stylesheet' type='text/css' />
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script>
+    Logoish.init();
+  </script>
+  <div class='buttons'>
+    <button id='button-save'><span class="fa fa-floppy-o"></span></button>
+    <button id='button-replay'><span class="fa fa-refresh"></span></button>
+    <button id='button-pen' class='tool selected'><span class="fa fa-pencil"></span></button>
+    <button id='button-eraser' class='tool'><span class="fa fa-eraser"></span></button>
+    <button id='button-triangle' class='tool'><span class="fa fa-chevron-up"></span></button>
+  </div>
+  <script src='draw.js'></script>
+</body>
+</html>
